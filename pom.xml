@@ -42,7 +42,8 @@
 						<region>us-east-1</region>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
-						<properties>
+						<objectStoreV2>true</objectStoreV2>
+                         <properties>
 							<host>0.0.0.0</host>
 						</properties>
 					</cloudHubDeployment>
